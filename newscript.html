@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Expires" CONTENT="-1">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scriptfolder/first.js"></script>
+  <title>ANIKET</title>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <button id="button" class="btn btn-primary" onclick="changebutton1()">Click me to diplay date and time</button>
+  </div>
+  <div class="container mt-5">
+    <button id="mybutton" class="btn btn-primary" onclick="changebutton()" value="Submit">SUBMIT</button>
+  </div>
+  <div class="container mt-5">
+    <button id="mybutton" class="btn btn-primary" onclick="alert_test()" value="Submit">Alert Text</button>
+  </div>
+  <script>
+    alert("hello javascript")
+  </script>
+  <img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" height="180">
+
+  <p>Click the light bulb to turn on/off the light.</p>
+
+
+  <button id="mybutton_hide" onclick="myFunction()" class="btn btn-primary">HIDE/UNHIDE PARAGRAPH</button>
+
+
+  <p id="mypara">In publishing and graphic design,Lorem ipsum is a placeholder text commonly used to demonstrate the
+    visual form of a document or a typeface
+    without relying on meaningful content.Lorem ipsum may be used as a placeholder before final copy is availaible.
+    It is also used to temporarily replace text in a process called greeking.
+  </p>
+  <br>
+  <div id="success" class="alert alert-success" role="alert">
+    This is a success alert—check it out!
+  </div>
+  <div id="failed" class="alert alert-danger" role="alert">
+    This is a failure alert-check it out!
+  </div>
+  <input type="text" id="search" />
+  <button onclick="search()" class="btn btn-primary"> Search </button>
+  <p id="demo">Display the result here.</p>
+<textarea row=2 name="textentered" id="textentered" class="form-control"></textarea>
+<div >You have entered <span id="textlength">0</span>characters</div>
+  <hr>
+  Value 1: <input type="text" id="calc1" value="10"> </br></br>
+  Value 2: <input type="text" id="calc2" value="10"> </br></br>
+  Value 3: <input type="text" id="calc3" value="10"> </br></br>
+  <p id="calculated_value"></p>
+  <button id="mybutton_calc" class="btn btn-primary" onclick="calculate()">CALCULATE</button><br>
+  <p id="para">this is a line</p>
+  <button class="btn btn-primary" onclick="beforeText()">click me</button>
+  <br>
+  <button class="btn btn-primary" id="btn">Start Animation</button>
+  <div style="background:red;height:100px;width:100px;position:absolute;"></div>
+  <br>
+  <br><br><br><br>
+  <form action="/action_page.php">
+    <label for="birthday">Date of Birth:</label>
+    <input type="date" id="birthday" name="birthday">
+  </form>
+  <button class="btn btn-primary" id="btn1">Create</button>
+</body>
+</html>
